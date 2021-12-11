@@ -1,0 +1,72 @@
+body{
+  background: yellow;
+}
+
+.droplet {
+display: block;
+padding-left: 50px;
+background: #f0ed46;
+border-radius: 2% 50%;
+height: 250px;
+line-height: 250px;
+width: 250px;
+margin: 100px;
+transition: all 3s;
+transition-timing: ease-in-out;
+text-align: center;
+font-size: 50px;
+font-family: Georgia;
+box-shadow: 0 0 10px red;
+}
+
+  .mixed:hover {
+    display: block;
+    transform: translateX(80px) translateY(80px) rotate(2turn);
+    background: #f0ed46;
+  }
+
+.citrina {
+  width: 500px;
+    height: 600px;
+    padding-top: 1px;
+    padding-bottom: 200px;
+    background-color: red;
+    animation-name: changeBg;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+
+
+  @keyframes changeBg {
+    from {background: #e8e538}
+    to {background: #32d923}
+  }
+
+  /* .transition {
+    width: 200px;
+    height: 200px;
+    background: grey;
+    margin: 50px;
+    border-radius: 8px;
+    transition-duration: 1s;
+    border: 3px solid orange;
+    transition: 1s; */
+    /* transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 1s; */
+  }
+
+  /* .road {
+    width: 1000px;
+    height: 300px;
+    background: grey;
+    border-radius: 20px;
+    margin: 50px;
+    transition: 0.5s;
+  }
+
+
+  .road:hover {
+    background: blue;
+  } */
